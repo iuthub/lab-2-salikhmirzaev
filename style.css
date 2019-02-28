@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.row{
+  display:flex;
+  justify-content:flex-start;
+  align-items:stretch;
+  flex-wrap:nowrap;
+  padding:10px;
+}
+.cell{
+  min-height:75px;
+  flex-grow:1;
+  flex-basis:100%;
+}
+#i0cf1x{
+  padding:10px;
+  font-size:25px;
+  font-weight:700;
+}
+#irwg4b{
+  padding:10px;
+}
+#first{
+  padding:10px;
+  font-size:25px;
+  font-weight:700;
+}
+#second{
+  padding:10px;
+}
+#third{
+  padding:10px;
+}
+#fourth{
+  padding:10px;
+}
+#fifth{
+  padding:10px;
+}
+#sixth{
+  padding:10px;
+  font-size:25px;
+  font-weight:700;
+}
+#seventh{
+  padding:10px;
+}
+#eight{
+  padding:10px;
+}
+#ninth{
+  padding:10px;
+}
+#eleven{
+  padding:10px;
+  font-size:25px;
+  font-weight:700;
+}
+#fourteen{
+  padding:10px;
+  font-size:25px;
+  font-weight:700;
+}
+#fifteen{
+  padding:10px;
+}
+#sixteen{
+  padding:10px;
+}
+#twelve{
+  flex-basis:50.6%;
+}
+#thirteen{
+  color:black;
+  margin:0 0 0 50px;
+}
+#ir97wr{
+  color:black;
+}
+@media (max-width: 768px){
+  .row{
+    flex-wrap:wrap;
+  }
+}
